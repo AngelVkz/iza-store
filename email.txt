@@ -1,0 +1,7 @@
+correo: iza-store@hotmail.com
+pass:   iza34Er56L
+
+nombre: isabel milagros
+fecha: 20/12/2000
+email: a@a.a
+

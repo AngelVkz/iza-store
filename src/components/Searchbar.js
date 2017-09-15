@@ -19,5 +19,4 @@ const Searchbar = ({filterText, onUserInput}) => (
         </div>
    </div>
 )
-
 export default Searchbar
