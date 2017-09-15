@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
      <ApolloProvider client={client} >
-        <div className="App container-fluid">
+        <div className="App container">
           <Header />
            <Body />
         </div>

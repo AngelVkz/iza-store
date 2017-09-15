@@ -1,12 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Economica|IM+Fell+Great+Primer);
 
-html{
-  background: url();
+
+body {
+  background: linear-gradient(to right, rgb(142, 158, 171), rgb(238, 242, 243));
 }
 
 .App {
   text-align: center;
-  font-family: 'Bungee'
+  font-size: 1.3em;
+  font-family: 'Economica', sans-serif;
 }
 
 .App-logo {
@@ -19,6 +21,7 @@ html{
   height: 150px;
   padding: 20px;
   color: white;
+  font-family: 'Bungee'
 }
 
 .App-intro {

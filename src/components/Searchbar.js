@@ -11,7 +11,7 @@ const Searchbar = ({filterText, onUserInput}) => (
             <div className="field-input">
                 <input 
                 type="text" 
-                placeholder="Busca..."
+                placeholder="Buscar producto..."
                 value={filterText}
                 onChange={e => onUserInput( getInput(e) )}/>
                 <span></span>
