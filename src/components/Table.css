@@ -1,0 +1,14 @@
+.img-w:hover .img-i {
+    opacity: 1;
+    position: fixed;
+    top: 120px;
+    left: -80px;
+    width: 400px;
+    display: flex;
+    background: transparent;
+}
+
+.img-i {
+    opacity: 0;
+    display: none;
+}

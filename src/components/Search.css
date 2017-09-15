@@ -11,6 +11,7 @@ body {
 }
 .container .field-input {
   text-align: center;
+  font-size: 0.8em;
 }
 .container .field-input input {
   text-align: left;
@@ -20,18 +21,26 @@ body {
   width: 12rem;
   font-family: roboto;
   transition: 0.5s;
+  box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.4),
+  6px 6px 1px -1px rgba(76, 101, 184, 0.47)
 }
 .container .field-input input:focus {
   outline: none;
-  border-color: #212121;
+  border-color: rgba(22, 77, 128, 0.8);
   transition: 0.5s;
+  font-size: 0.8em;
 }
 .container .field-input span:before {
   content: "\f002";
   cursor: pointer;
   position: relative;
   font-family: fontawesome;
-  font-size: 1em;
+  font-size: 1.1em;
   top: 0;
-  right: 1.5rem;
+  right: 1.8rem;
+}
+
+.field-input:hover{
+  color: rgba(22, 77, 128, 0.8);
+  font-size: 0.9em;
 }
